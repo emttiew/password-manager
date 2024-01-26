@@ -2,8 +2,8 @@ name: Buld & Test on push/pull_request
 
 on:
   push:
-    branches:
-        - main
+    branches: 
+        - 'main'
   pull_request:
     types: [opened, reopened, edited]
 
